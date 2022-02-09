@@ -8,6 +8,7 @@
 
     <title>PyAnsys Project &#8212; pyansys 0.61.2 documentation</title>
     
+    
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
@@ -28,6 +29,7 @@
     
   <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
 
+    
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
@@ -45,6 +47,7 @@
     
     <div class="container-fluid" id="banner"></div>
 
+    
     
     <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><style>
     .navbar-light {
@@ -92,19 +95,25 @@
 
 <li class="toctree-l1 nav-item">
  <a class="reference external nav-link" href="https://dpfdocs.pyansys.com/">
-  DPF-Core
+  PyDPF-Core
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference external nav-link" href="https://postdocs.pyansys.com/">
-  DPF-Post
+  PyDPF-Post
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference external nav-link" href="https://readerdocs.pyansys.com/">
   Legacy PyMAPDL Reader
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference external nav-link" href="https://shared.docs.pyansys.com/">
+  Shared Components
  </a>
 </li>
 
@@ -132,6 +141,8 @@
 </div>
     </nav>
     
+    
+
 
     <div class="container-xl">
       <div class="row">
@@ -280,19 +291,22 @@
      Plotting Nodal Results
     </a>
    </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id9">
-   Installation
-  </a>
-  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id9">
+     Installation
+    </a>
+   </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#id10">
      Resources and Links
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#shared-components">
+   Shared Components
+  </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#license-and-acknowledgments">
@@ -801,15 +815,15 @@ displayed.</p>
 </pre></div>
 </div>
 </section>
-</section>
 <section id="id9">
-<h2>Installation<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<h3>Installation<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <p>Installation through pip:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">ansys</span><span class="o">-</span><span class="n">mapdl</span><span class="o">-</span><span class="n">reader</span>
 </pre></div>
 </div>
 <p>You can also visit <a class="reference external" href="https://github.com/pyansys/pymapdl-reader">pymapdl-reader</a>
 to download the source or releases from GitHub.</p>
+</section>
 <section id="id10">
 <h3>Resources and Links<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
 <p>For more details, see:</p>
@@ -821,6 +835,13 @@ to download the source or releases from GitHub.</p>
 </ul>
 </div></blockquote>
 </section>
+</section>
+<section id="shared-components">
+<h2>Shared Components<a class="headerlink" href="#shared-components" title="Permalink to this headline">¶</a></h2>
+<p>The PyAnsys project publishes and consumes shared software components. These enable
+interoperability between PyAnsys packages and minimizes maintenance burden.</p>
+<p>For more details and a list of the available shared components see the
+<a class="reference external" href="https://shared.docs.pyansys.com">Shared Components Documentation</a>.</p>
 </section>
 <section id="license-and-acknowledgments">
 <h2>License and Acknowledgments<a class="headerlink" href="#license-and-acknowledgments" title="Permalink to this headline">¶</a></h2>
@@ -850,13 +871,13 @@ software.</p>
     
     <div class="footer-item">
       <p class="copyright">
-    &copy; Copyright (c) 2021 ANSYS, Inc. All rights reserved.<br>
+    &copy; Copyright (c) 2022 ANSYS, Inc. All rights reserved.<br>
 </p>
     </div>
     
     <div class="footer-item">
       <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.2.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
 </p>
     </div>
     
